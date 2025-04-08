@@ -1,0 +1,6 @@
+const names=require('./app1')
+const sayhii=require('./func1')
+require('./utils1')
+sayhii('rishi')
+sayhii(names.john)
+sayhii(names.peter)
