@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "app1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node utils1.js",
+    "dev":"nodemon utils1.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,8 @@
     "bootstrap": "^5.3.5",
     "jquery": "^3.7.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
